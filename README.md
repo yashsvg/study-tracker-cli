@@ -1,6 +1,6 @@
 # 📌 Study Tracker CLI (C)
 
-A CLI-based task manager built in C implementing CRUD operations with file persistence.
+A menu-driven CLI task manager built in C supporting full CRUD operations with persistent file storage.
 
 ---
 
@@ -32,6 +32,11 @@ study-tracker-cli/
 │── main.c
 │── README.md
 │── .gitignore
+
+## ⚙️ Implementation Details
+- Tasks stored using structures in C
+- Data persisted using file I/O (`fopen`, `fprintf`, `fscanf`)
+- Menu-driven control flow using loops and switch-case
 
 ##🧪 Example Run
 1
